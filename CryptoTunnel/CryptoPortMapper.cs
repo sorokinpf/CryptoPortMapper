@@ -102,7 +102,7 @@ namespace CryptoTunnel
                     int bytes2 = 0;
                     if (reread_timeout > 0)
                     {
-                        bytes2 = read(in_stream, buffer2, 1024 * 1024, reread_timeout);
+                        bytes2 = read(in_stream, buffer2, 1024 * 1024, reread_timeout); 
                         if (bytes2 > 0)
                         {
                             //System.Console.WriteLine("bytes: {0},{1}", bytes, bytes2);
