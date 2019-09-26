@@ -1,4 +1,4 @@
-# CryptoTunnel
+# CryptoPortMapper
 
 ## Purpose
 
@@ -6,7 +6,7 @@ Map plain local port to remote ssl port. Can be used for security testing.
 
 ## Usage
 
-`CryptoTunnel <listen_ip> <listen_port> <remote_hostname> <remote_port> <reread_timeout> [<certificate_path>]`
+`CryptoPortMapper <listen_ip> <listen_port> <remote_hostname> <remote_port> <reread_timeout> [<certificate_path>]`
 
 - `listen_ip` - local IP Address (`0.0.0.0` or local interface)
 - `listen_port` - local TCP Port
