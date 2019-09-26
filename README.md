@@ -13,7 +13,7 @@ Map plain local port to remote ssl port. Can be used for security testing.
 - `remote_hostname` - domain name of target. IP address not enough cause domain name required during SSL connection establishing. (You can find it in certificate of target)
 - `remote_port` - remote TCP Port
 - `reread_timeout` - timeout in milleseconds for wait second message from server (see Motivation). Use 0 if you dont need. 300 works fine in my projects.
-- `certificate_path` - path to client certificate. Certificate must be installed in your storage and private key must be attached. Skep if you dont need client certificate. 
+- `certificate_path` - path to client certificate. Certificate must be installed in your storage and private key must be attached. Skip if you dont need client certificate. 
 
 ## Motivation
 
