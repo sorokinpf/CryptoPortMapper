@@ -17,7 +17,7 @@ Map plain local port to remote ssl port. Can be used for security testing.
 
 ## Motivation
 
-Burp doesn't support crypto ciphers like GOST2012-GOST8912-GOST8912 and GOST2001-GOST89-GOST89. It is possible to test with Fiddler on Windows (it use same crypto). But, it is HTTP proxy. And it can make changes in your traffic, especially if you play with Content-Length and Transfer-Encoding headers. More if web server sended you two responses not in one "tcp-packet" Burp would show only first, so you can loose info.
+Burp doesn't support crypto ciphers like GOST2012-GOST8912-GOST8912 and GOST2001-GOST89-GOST89. It is possible to test with Fiddler on Windows (it use same crypto). But, it is HTTP proxy. And it can make changes in your traffic, especially if you play with Content-Length and Transfer-Encoding headers. More if web server sended you two responses not in one "tcp-packet" Burp would show only first, so you can lose info.
 
 ## Requirements
 
