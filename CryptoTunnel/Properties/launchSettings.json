@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CryptoTunnel": {
+      "commandName": "Project",
+      "commandLineArgs": "0.0.0.0 80 scores-test.bki-okb.com 443 500 cert.cer"
+    }
+  }
+}
